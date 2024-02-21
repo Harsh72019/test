@@ -1,0 +1,68 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+
+.heading {
+  font-size: 2vmax;
+  margin: 2vmax 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.form {
+  padding: 2vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  justify-content: center;
+}
+
+.form input {
+  /* border: 1px solid black; */
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0.7vmax;
+  font-size: 1vmax;
+  /* background-color: unset; */
+}
+
+button {
+  padding: 0.7vmax;
+  width: 40%;
+  font-size: 1vmax;
+  background-color: #0093e9;
+  transition: all 0.3s;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: aquamarine;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  font-size: 1vmax;
+  /* width: 100%; */
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 5vmax;
+  }
+}
